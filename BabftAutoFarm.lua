@@ -54,7 +54,7 @@ end)
 --// ReGui UI library by depthso - Depso
 local ImGui = loadstring(game:HttpGet("https://raw.githubusercontent.com/depthso/Roblox-ImGUI/main/ImGui.lua"))()
 
-local PrefabsId = "rbxassetid://" .. tostring(ImGui.PrefabsId)
+local PrefabsId = "rbxassetid://76246418997296" .. tostring(ImGui.PrefabsId)
 
 ImGui:Init({
     Prefabs = game:GetService("InsertService"):LoadLocalAsset(PrefabsId)
