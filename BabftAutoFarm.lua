@@ -52,7 +52,7 @@ player.CharacterAdded:Connect(function(char)
 end)
 
 --// ReGui UI library by depthso - Depso
-local ImGui = loadstring(game:HttpGet("https://raw.githubusercontent.com/depthso/Dear-ReGui/refs/heads/main/ReGui.lua"))()
+local ImGui = loadstring(game:HttpGet("https://raw.githubusercontent.com/depthso/Roblox-ImGUI/main/ImGui.lua"))()
 
 local PrefabsId = "rbxassetid://" .. tostring(ImGui.PrefabsId)
 
